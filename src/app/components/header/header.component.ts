@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import {TranslateService} from '@ngx-translate/core';
 
@@ -8,12 +8,12 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  @Input()
   public mobileView: boolean;
   selectedItem = window.location.pathname;
   constructor(private _router: Router, public translate: TranslateService) { }
 
   ngOnInit(): void {
-    this.mobileView = window?.innerWidth < 700 ? true : false;
     console.log(this.mobileView);
     this.translate.addLangs(['en', 'hu', 'sr']);
     this.translate.setDefaultLang('en');

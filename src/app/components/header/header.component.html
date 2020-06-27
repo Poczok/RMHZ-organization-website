@@ -1,4 +1,4 @@
-<div class="background">
+<div [ngClass]="{ 'desktop-wrapper': !mobileView, 'mobile-wrapper': mobileView }">
 <ng-container>
 <div [ngClass]="{ 'desktop-menu-settings': !mobileView, 'mobile-menu-settings': mobileView }">
   <ul>

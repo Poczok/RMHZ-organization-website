@@ -1,5 +1,10 @@
-.background {
+.mobile-wrapper {
   background-color: gainsboro;
+  height: 245px;
+}
+.desktop-wrapper {
+  background-color: gainsboro;
+  height: 45px;
 }
 .desktop-menu-settings {
   display: flex;

@@ -1,2 +1,5 @@
-<app-header></app-header>
+<app-header [mobileView]="mobileView"></app-header>
+<div [ngClass]="{ 'desktop-outlet-wrapper': !mobileView, 'mobile-outlet-wrapper': mobileView }">
 <router-outlet></router-outlet>
+</div>
+<app-footer [mobileView]="mobileView"></app-footer>

@@ -8,6 +8,8 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -17,7 +19,9 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HeaderComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
