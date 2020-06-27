@@ -14,12 +14,11 @@ export class HeaderComponent implements OnInit {
   constructor(private _router: Router, public translate: TranslateService) { }
 
   ngOnInit(): void {
-    console.log(this.mobileView);
     this.translate.addLangs(['en', 'hu', 'sr']);
     this.translate.setDefaultLang('en');
 
-    const browserLang = this.translate.getBrowserLang();
-    this.translate.use(browserLang.match(/hu|sr/) ? browserLang : 'en');
+    const browserLang = this.translate?.getBrowserLang();
+    this.translate.use(browserLang?.match(/hu|sr/) ? browserLang : 'en');
   }
   public navigate(path: string) {
     this.selectedItem = path;
