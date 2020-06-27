@@ -1,27 +1,15 @@
-# RMHZWebsite
+www.regimestersegekhaza.com
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+Site for the civil organisation Régi Mesterségek Háza Zenta.
 
-## Development server
+About the organisation:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The organisation is founded by Árpad Pecze, who over 35 years collected more then 10.000 antiques. Most of these objects are made between the second half of the 19 century and 1945. This exposure became the biggest private collection of Autonomous Province of Vojvodina/Vajdaság. The main goal of the organisation to save the heritage of Hungarians in Vojvidina/Vajdaság.
 
-## Code scaffolding
+Finances:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The upkeep of the website is funded by the Bethlen Gábor Alapkezelő Zrt and the Hungarian Government.
 
-## Build
+Responsible for the website:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Tamás Pecze
