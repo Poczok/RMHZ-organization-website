@@ -1,0 +1,21 @@
+{
+  "HOME": {
+    "HOME": "Home",
+    "TITLE": "Welcome to the House of the Old Professions website!"
+  },
+  "CONTACT": {
+    "CONTACT": "Contact",
+    "ADDRESS": "Serbia, 24400 Senta, Zmaj Jove Jovanovića 16/B",
+    "TELEPHONE": "+381638964780 or landline +38124814261"
+  },
+  "ABOUTUS": {
+    "ABOUTUS": "About us",
+    "BRIEFDESC": "The organisation is founded by Árpád Pecze, who over 35 years collected more then 10.000 antiques. Most of these objects are made between the second half of the 19. century and 1945. This exposure became the biggest private collection of Autonomous Province of Vojvodina. The main goal of the organisation to save the cultural heritage of the region."
+  },
+  "EVENTS": {
+    "YEARLYEVENTS" : "Yearly events",
+    "EVENT1" : "Learning about the old professions",
+    "EVENT2" : "Rope-making days in the House of the Old Professions",
+    "EVENT3" : "Exhibition and lecture about the well known professionals of Senta between XIX.-XX. centuary"
+  }
+}

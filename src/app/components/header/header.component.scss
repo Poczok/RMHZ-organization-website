@@ -1,0 +1,61 @@
+.background {
+  background-color: gainsboro;
+}
+.desktop-menu-settings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.desktop-menu-settings ul {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding-inline-start: 0;
+}
+.desktop-menu-settings ul li {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+.desktop-menu-settings div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 200px;
+}
+.mobile-menu-settings {
+  display: flex;
+  padding-bottom: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.mobile-menu-settings ul {
+  cursor: pointer;
+  width: 100%;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.mobile-menu-settings ul li {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 10px;
+}
+.mobile-menu-settings div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.active {
+  background-color: gray;
+}

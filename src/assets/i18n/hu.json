@@ -1,0 +1,21 @@
+{
+  "HOME": {
+    "HOME": "Főoldal",
+    "TITLE": "Üdvözöljük a Régi Mesterségek Háza oldalán!"
+  },
+  "CONTACT": {
+    "CONTACT": "Kapcsolat",
+    "ADDRESS": "Szerbia, 24400 Zenta, Zmaj Jove Jovanovića 16/B",
+    "TELEPHONE": "+381638964780 vagy vezetékes +38124814261"
+  },
+  "ABOUTUS": {
+    "ABOUTUS": "Rólunk",
+    "BRIEFDESC": "A kiállítást Pecze Árpád hozta létre, aki több mint 35 év alatt több mint 10.000 régiséget gyűjtött össze. A legtöbb régi tárgy a 1850-es és 1945 közötti időszakból származik. A gyűjtemény egész Vajdaságban páratlan, mely a helyi lakosság kulturális örökségét őrzi."
+  },
+  "EVENTS": {
+    "YEARLYEVENTS" : "Éves rendezvények",
+    "EVENT1" : "Ismerkedés a régi mesterségekkel",
+    "EVENT2" : "Kötélfonó napok a Régi Mesterségek Házában",
+    "EVENT3" : "Tárlatvezetés és előadás a XIX.-XX. század közismert zentai mestereiről"
+  }
+}

@@ -1,0 +1,17 @@
+<div class="background">
+<ng-container>
+<div [ngClass]="{ 'desktop-menu-settings': !mobileView, 'mobile-menu-settings': mobileView }">
+  <ul>
+    <li [ngClass]="{'active': selectedItem == '/'}" (click)="navigate('/')">{{ 'HOME.HOME' | translate }}</li>
+    <li [ngClass]="{'active': selectedItem == '/about-us'}" (click)="navigate('/about-us')">{{ 'ABOUTUS.ABOUTUS' | translate }}</li>
+    <li [ngClass]="{'active': selectedItem == '/contact'}" (click)="navigate('/contact')">{{ 'CONTACT.CONTACT' | translate }}</li>
+    <li><a href="https://www.facebook.com/regimestersegekhaza"><i class="fa fa-facebook-official pr-1"></i>Facebook</a></li>
+  </ul>
+  <div>
+    <input type="image" src="/assets/images/flag-eng.png" (click)="translate.use('en')" class="btn" />
+    <input type="image" src="/assets/images/flag-hun.png" (click)="translate.use('hu')" class="btn" />
+    <input type="image" src="/assets/images/flag-srb.png" (click)="translate.use('sr')" class="btn" />
+  </div>
+</div>
+</ng-container>
+</div>

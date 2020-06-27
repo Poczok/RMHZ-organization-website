@@ -1,0 +1,21 @@
+{
+  "HOME": {
+    "HOME": "Glavna stranica",
+    "TITLE": "Dobrodošli na sajtu Kuće Starih Zanata!"
+  },
+  "CONTACT": {
+    "CONTACT": "Kontakt",
+    "ADDRESS": "Srbija, 24400 Senta, Zmaj Jove Jovanovića 16/B",
+    "TELEPHONE": "0638964780 ili linijski 024814261"
+  },
+  "ABOUTUS": {
+    "ABOUTUS": "O nama",
+    "BRIEFDESC": "Organizaciju je osnovao Arpad Pece, ko je za preko 35 godina sakupio preko 10.000 starina. Većina stvari su iz perioda između 1850-ih i 1945. godine. Organizacija ima cilj da sačuva materijalnu zaostavštinu regiona."
+  },
+  "EVENTS": {
+    "YEARLYEVENTS" : "Godišnji događaji",
+    "EVENT1" : "Upoznanje sa starim zanatima",
+    "EVENT2" : "Dani pravljenje uže u Kući Starih Zanata",
+    "EVENT3" : "Obliazak izložbe i predavanja o poznatim majstorima grada Sente između XIX.-XX. veka"
+  }
+}
