@@ -16,5 +16,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {}
   public navigate(path: string) {
     this.selectedItem = path;
+    this._router.navigate([path]);
   }
 }
