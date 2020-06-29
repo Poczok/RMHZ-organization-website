@@ -1,6 +1,6 @@
 .desktop-outlet-wrapper {
-  height: calc(100vh - 90px);
+  min-height: calc(100vh - 90px);
 }
 .mobile-outlet-wrapper {
-  height: calc(100vh - 290px);
+  min-height: calc(100vh - 290px);
 }

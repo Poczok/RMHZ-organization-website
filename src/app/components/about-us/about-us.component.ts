@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
 
+  // TODO resolution service needed (every component needs to know is it in mobile view or not)
   constructor() { }
 
   ngOnInit(): void {

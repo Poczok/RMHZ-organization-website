@@ -1,1 +1,13 @@
-<p>contact works!</p>
+<div class="wrapper align-items-center">
+  <div class="d-flex flex-column">
+    <p>{{ 'CONTACT.ADDRESS' | translate }}</p>
+    <p>{{ 'CONTACT.TELEPHONE' | translate }}</p>
+    <p>info@regimestersekhaza.com</p>
+  </div>
+    <div class="d-flex flex-row w-50">
+    <agm-map [latitude]="lat" [zoom]="zoom" [longitude]="lng" [disableDefaultUI]="false"
+    [zoomControl]="false">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+    </div>
+</div>
