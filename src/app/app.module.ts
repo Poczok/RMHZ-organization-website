@@ -12,6 +12,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { AgmCoreModule } from '@agm/core';
+import { ResolutionService } from './services/resolution.service';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -41,7 +42,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     apiKey: 'AIzaSyCfH4NGyON6iJWMFeOjoLd_xQYv3HHtiCQ'
   })
   ],
-  providers: [],
+  providers: [ResolutionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
